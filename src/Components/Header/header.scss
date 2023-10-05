@@ -9,6 +9,12 @@
     flex-direction: row;
     justify-content: space-between;
 
+    @media (max-width:600px){
+        .header-container{
+           display: none;
+        }
+    }
+
     .header-section1{
 
         display: flex;

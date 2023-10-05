@@ -2,6 +2,7 @@
 import './App.scss'
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import LandingPage from "./Components/LandingPage/LandingPage"
+import About from './Components/About/About';
 
 function App() {
 

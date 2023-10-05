@@ -1,0 +1,53 @@
+.about-container{
+    margin-top: 300px;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .about-part1{
+
+        .section1{
+            // margin-left: 100px;
+            .chairman{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                
+
+            }
+        }
+
+        .section2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Mont Heavy;
+            
+
+            .name{
+                font-size: 30px;
+            }
+            .role{
+                
+                color: #648188;
+               
+            }
+        }
+    }
+
+    .vertical{
+        border-left: 2px solid #000;
+                display: flex;
+               margin-top: 15px;
+                height: 350px;
+               
+    }
+
+    .about-part2{
+        width: 50%;
+        font-family: Mont-bold;
+        
+
+    }
+}
