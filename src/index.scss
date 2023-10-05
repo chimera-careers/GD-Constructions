@@ -11,4 +11,19 @@
     src: url("../src/assets/fonts/Mont-Bold\ \(1\).woff") format("woff"); /* Path to your font file */
   }
   
-  
+  /* This is your regular CSS code that applies to all screen sizes */
+
+/* Media query for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+  /* CSS styles to apply when the screen width is 600px or less */
+}
+
+/* Media query for screens with a minimum width of 601px and a maximum width of 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* CSS styles to apply when the screen width is between 601px and 1024px */
+}
+
+/* Media query for screens with a minimum width of 1025px */
+@media screen and (min-width: 1025px) {
+  /* CSS styles to apply when the screen width is 1025px or more */
+}
