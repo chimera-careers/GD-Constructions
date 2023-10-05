@@ -1,0 +1,118 @@
+.header-container{
+    background-color: #050606;
+    height: 54px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .header-section1{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 50px;
+
+        .phone-icon-header{
+            color:#fff;
+            font-size: 20px;
+            border: 1px solid;
+            padding: 5px;
+            border-radius: 50px;
+            border-style: ridge;
+        
+        }
+
+        .mobile-numbers{
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            cursor: pointer;
+
+            .mob-no{
+                font-family: Mont;
+                color: #fff;
+                text-decoration: none;
+                
+
+                &:hover{
+                    color: #ba1f24;
+                }
+            }
+
+            .vertical{
+                border-left: 2px solid #fff;
+                display: flex;
+               margin-top: 15px;
+                height: 20px;
+            }
+        }
+    }
+
+    .header-section2{
+
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 50px;
+        gap:10px;
+        margin-right: 30px;
+
+        .mail-icon-header{
+            color:#fff;
+            font-size: 20px;
+            border: 1px solid;
+            padding: 5px;
+            border-radius: 50px;
+            border-style: ridge;
+        }
+
+        .mail-id-section{
+
+            
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            cursor: pointer;
+
+            .mail-id{
+                font-family: Mont;
+                color: #fff;
+                text-decoration: none;
+
+                &:hover{
+                    color: #ba1f24;
+                }
+            }
+        }
+
+        .vertical{
+            border-left: 2px solid #fff;
+            display: flex;
+            height: 20px;
+        }
+
+        .socials{
+            
+            display: flex;
+            gap: 10px;
+            .socialicon{
+                color:#fff;
+            font-size: 20px;
+            border: 1px solid;
+            padding: 5px;
+            border-radius: 50px;
+            border-style: ridge;
+
+            &:hover{
+                color: #ba1f24;
+            }
+            }
+        }
+    }
+}
