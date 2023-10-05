@@ -5,6 +5,7 @@ import "./landingpage.scss"
 import Header from '../Header/Header'
 import Navbar from '../Navbar.jsx/Navbar'
 import About from '../About/About'
+import Footer from '../Footer/Footer'
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
   <img src={Banner} alt="" />
 </div>
       <About />
+      <Footer/>
     </div>
   )
 }
