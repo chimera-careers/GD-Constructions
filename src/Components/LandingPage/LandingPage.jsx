@@ -9,6 +9,7 @@ import Footer from '../Footer/Footer'
 
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JavaScript bundle
+import Contact from '../Contact/Contact'
 // import Banner from "../../assets/Images/banner.jpg";
 
 function LandingPage() {
@@ -41,6 +42,7 @@ function LandingPage() {
 </div>
 </div>
       <About />
+      <Contact />
       <Footer/>
     </>
     </div>
