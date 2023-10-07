@@ -8,15 +8,14 @@ function Contact() {
       <div className="contact-part1">
         <h1 className="heading-office">Head Office</h1>
         <div className="address-details">
-
-        <p>
-          T.C.4/894,Mohammed Manzil,Pipeline Road,
-          <br />
-          Kowdiar,TVPM
-        </p>
-        <p>Mob: +91 9495831451</p>
-        <p>Mob: +91 9443692838</p>
-        <p>gdconstructions.co.in</p>
+          <p>
+            T.C.4/894,Mohammed Manzil,Pipeline Road,
+            <br />
+            Kowdiar,TVPM
+          </p>
+          <p>Mob: +91 9495831451</p>
+          <p>Mob: +91 9443692838</p>
+          <p>gdconstructions.co.in</p>
         </div>
 
         <div className="map">
@@ -39,24 +38,22 @@ function Contact() {
         </p>
         <div className="form-container">
           <div className="form-inputs">
-
             <div className="input-section1">
+              <div className="fullname-input">
+                <input type="text" className="input-full" />
+                <label htmlFor="input" className="label">
+                  Full Name
+                </label>
+                <div className="underline"></div>
+              </div>
 
-            <div className="fullname-input">
-              <input type="text" className="input-full" />
-              <label htmlFor="input" className="label">
-                Full Name
-              </label>
-              <div className="underline"></div>
-            </div>
-
-            <div className="email-input">
-              <input type="email" className="input-mail" />
-              <label htmlFor="input" className="label">
-                Email
-              </label>
-              <div className="underline"></div>
-            </div>
+              <div className="email-input">
+                <input type="email" className="input-mail" />
+                <label htmlFor="input" className="label">
+                  Email
+                </label>
+                <div className="underline"></div>
+              </div>
             </div>
 
             <div className="subject-input">
@@ -81,7 +78,9 @@ function Contact() {
               <div className="underline"></div>
             </div>
 
-            <button type="submit" id="submit-btn">Submit</button>
+            <button type="submit" id="submit-btn">
+              Submit
+            </button>
           </div>
         </div>
       </div>
