@@ -18,7 +18,7 @@ function Navbar() {
           <p>Home</p>
         </Link>
         <p>About us</p>
-        <Link>
+        <Link to={"#projects"}>
           {" "}
           <p>Projects</p>{" "}
         </Link>

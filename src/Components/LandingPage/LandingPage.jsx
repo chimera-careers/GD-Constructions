@@ -1,5 +1,7 @@
 import React from "react";
-import Banner from "../../assets/Images/banner.jpg";
+import Banner3 from "../../assets/Images/banner-3.png";
+import Banner1 from "../../assets/Images/banner-1.png"
+import Banner2 from "../..//assets/Images/banner-2.png"
 
 import "./landingpage.scss";
 import Header from "../Header/Header";
@@ -28,13 +30,13 @@ function LandingPage() {
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src={Banner} class="d-block w-100" alt="" />
+                <img src={Banner1} class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src={Banner} class="d-block w-100" alt="" />
+                <img src={Banner2} class="d-block w-100" alt="" />
               </div>
               <div class="carousel-item">
-                <img src={Banner} class="d-block w-100" alt="" />
+                <img src={Banner3} class="d-block w-100" alt="" />
               </div>
             </div>
             <button
