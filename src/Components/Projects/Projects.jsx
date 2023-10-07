@@ -17,11 +17,11 @@ function Projects() {
   return (
     <>
       <div className="projects-container">
-        <h1>Our Projects</h1>
+        <h1 className='project-head'>Our Projects</h1>
 
         <div className="visible-cards">
           <div className="card1">
-            <img src={Project1} alt="" className="card-image" />
+          
             <div className="textBox">
               <p className="text head">St. Judes Church</p>
               <p className="text price">Vazhayila</p>
@@ -32,21 +32,64 @@ function Projects() {
               </Link>
             </div>
           </div>
+
           <div className="card2">
-            <img src={Project2} alt="" className="card-image" />
+          <div className="textBox">
+              <p className="text head">St. Judes Church</p>
+              <p className="text price">Vazhayila</p>
+              <Link to="/gallery">
+              <button type="button" className="btn btn-primary" >
+                View More
+              </button>
+              </Link>
+            </div>
           </div>
-           {/* <div className="card3">
-            <img src={Project3} alt="" className="card-image" />
+          <div className="card3">
+          <div className="textBox">
+              <p className="text head">St. Judes Church</p>
+              <p className="text price">Vazhayila</p>
+              <Link to="/gallery">
+              <button type="button" className="btn btn-primary" >
+                View More
+              </button>
+              </Link>
+            </div>
           </div>
           <div className="card4">
-            <img src={Project4} alt="" className="card-image" />
+          <div className="textBox">
+              <p className="text head">St. Judes Church</p>
+              <p className="text price">Vazhayila</p>
+              <Link to="/gallery">
+              <button type="button" className="btn btn-primary" >
+                View More
+              </button>
+              </Link>
+            </div>
           </div>
           <div className="card5">
-            <img src={Project5} alt="" className="card-image" />
+          <div className="textBox">
+              <p className="text head">St. Judes Church</p>
+              <p className="text price">Vazhayila</p>
+              <Link to="/gallery">
+              <button type="button" className="btn btn-primary" >
+                View More
+              </button>
+              </Link>
+            </div>
           </div>
           <div className="card6">
-            <img src={Project6} alt="" className="card-image" />
-          </div>  */}
+          <div className="textBox">
+              <p className="text head">St. Judes Church</p>
+              <p className="text price">Vazhayila</p>
+              <Link to="/gallery">
+              <button type="button" className="btn btn-primary" >
+                View More
+              </button>
+              </Link>
+            </div>
+          </div>
+         
+       
         </div>
 
        
