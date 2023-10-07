@@ -25,10 +25,7 @@ function Footer() {
           <p>Instagram</p>
           <p>Linkedin</p>
         </div>
-        <div className="footer-part4">
-          <h2 className="footer4-heading">Enquiries</h2>
-          <button className="footer4-contact-us">Contact US</button>
-        </div>
+       
       </div>
       <div className="footer-base">
         <div className="base-part1">
