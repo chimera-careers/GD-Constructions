@@ -1,14 +1,16 @@
-@font-face {
-    font-family: "Mont"; /* The name you want to give to your font */
-    src: url("../src/assets/fonts/Mont-Regular.woff") format("woff"); /* Path to your font file */
+
+  @font-face {
+    font-family: "Montserrat-Bold"; /* The name you want to give to your font */
+    src: url("../src/assets/fonts/Montserrat-Bold.woff") format("woff"); /* Path to your font file */
   }
   @font-face {
-    font-family: "Mont Heavy"; /* The name you want to give to your font */
-    src: url("../src/assets/fonts/Mont\ Heavy.woff") format("woff"); /* Path to your font file */
+    font-family: "Anton"; /* The name you want to give to your font */
+    src: url("../src/assets/fonts/anton.woff") format("woff"); /* Path to your font file */
   }
+
   @font-face {
-    font-family: "Mont-Bold"; /* The name you want to give to your font */
-    src: url("../src/assets/fonts/Mont-Bold\ \(1\).woff") format("woff"); /* Path to your font file */
+    font-family: "Montserrat"; /* The name you want to give to your font */
+    src: url("../src/assets/fonts/Montserrat-Regular.woff") format("woff"); /* Path to your font file */
   }
   
   /* This is your regular CSS code that applies to all screen sizes */

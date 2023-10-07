@@ -46,7 +46,14 @@
 
     .about-part2{
         width: 50%;
-        font-family: Mont-bold;
+
+        .heading{
+
+            font-family: Anton;
+        }
+        .about-desc{
+            font-family: Montserrat;
+        }
         
 
     }

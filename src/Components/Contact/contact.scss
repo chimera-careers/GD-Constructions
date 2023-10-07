@@ -4,6 +4,7 @@
     margin-bottom: 200px;
     justify-content: space-around;
     font-family: Mont;
+    align-items: center;
     position: relative;
     right: 0;
 
@@ -14,7 +15,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
+    .heading-office{
+      font-family: Anton;
+    }
+        .address-details{
+          font-family: Montserrat;
+        }
 
         .map{
             width: 500px;
@@ -40,6 +47,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-right: 30pX;
+        font-family: Montserrat;
+
+        .heading-enq{
+          font-family: Anton;
+        }
 
 
         .form-container{
@@ -55,8 +68,275 @@
                 justify-content: center;
                 align-items: center;
                 gap: 20px;
+
+                .input-section1{
+                    width: 700px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .fullname-input{
+    
+                        position: relative;
+                        margin: 50px auto;
+                        width: 200px;
+    
+                      
+    
+                     
+                      .input-full{
+                        font-size: 20px;
+                        width: 200px;
+                        border: none;
+                        border-bottom: 2px solid #ccc;
+                        padding: 5px 0;
+                        background-color: transparent;
+                        outline: none;
+    
+    
+                        &:focus ~ .label{
+                            top: -20px;
+                            font-size: 16px;
+                            color: #333;
+                        }
+    
+                        // &:valid ~ .label{
+                        //     top: -20px;
+                        //     font-size: 16px;
+                        //     color: #333;
+                        // }
+    
+                        &:focus ~ .underline{
+                            transform: scaleX(1);
+                        }
+    
+                        // &:valid ~ .underline{
+                        //     transform: scaleX(1);
+                        // }
+                      }
+                      .label {
+                         position: absolute;
+                         top: 0;
+                         left: 0;
+                         color: #ccc;
+                         transition: all 0.3s ease;
+                         pointer-events: none;
+                       }
+                          
+    
+                        
+                          .underline{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            height: 2px;
+                            width: 300px;
+                            background-color: #333;
+                            transform: scaleX(0);
+                            transition: all 0.3s ease;
+                          }
+                    }
+                    .email-input{
+    
+                        position: relative;
+                        margin: 50px auto;
+                        width: 200px;
+    
+                      
+    
+                     
+                      .input-mail{
+                        font-size: 20px;
+                        width: 200px;
+                        border: none;
+                        border-bottom: 2px solid #ccc;
+                        padding: 5px 0;
+                        background-color: transparent;
+                        outline: none;
+    
+    
+                        &:focus ~ .label{
+                            top: -20px;
+                            font-size: 16px;
+                            color: #333;
+                        }
+    
+                        // &:valid ~ .label{
+                        //     top: -20px;
+                        //     font-size: 16px;
+                        //     color: #333;
+                        // }
+    
+                        &:focus ~ .underline{
+                            transform: scaleX(1);
+                        }
+    
+                        // &:valid ~ .underline{
+                        //     transform: scaleX(1);
+                        // }
+                      }
+                      .label {
+                         position: absolute;
+                         top: 0;
+                         left: 0;
+                         color: #000;
+                         transition: all 0.3s ease;
+                         pointer-events: none;
+                       }
+                          
+    
+                        
+                          .underline{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            height: 2px;
+                            width: 200px;
+                            background-color: #333;
+                            transform: scaleX(0);
+                            transition: all 0.3s ease;
+                          }
+                    }
+
+                }
+
+
+
+                .subject-input{
+
+                    position: relative;
+                    margin: 2px auto;
+                    width: 200px;
+
+                  
+
+                 
+                  .input-sub{
+                    font-size: 20px;
+                    width: 300px;
+                    // margin-right: 200px;
+                    border: none;
+                    border-bottom: 2px solid #ccc;
+                    padding: 5px 0;
+                    background-color: transparent;
+                    outline: none;
+
+
+                    &:focus ~ .label{
+                        top: -20px;
+                        font-size: 16px;
+                        color: #333;
+                    }
+
+                    &:valid ~ .label{
+                        top: -20px;
+                        font-size: 16px;
+                        color: #333;
+                    }
+
+                    &:focus ~ .underline{
+                        transform: scaleX(1);
+                    }
+
+                    // &:valid ~ .underline{
+                    //     transform: scaleX(1);
+                    // }
+                  }
+                  .label {
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     color: #ccc;
+                     transition: all 0.3s ease;
+                     pointer-events: none;
+                   }
+                      
+
+                    
+                      .underline{
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        height: 2px;
+                        width: 300px;
+                        background-color: #333;
+                        transform: scaleX(0);
+                        transition: all 0.3s ease;
+                      }
+                }
+                .message-input{
+
+                    position: relative;
+                    margin: 50px auto;
+                   
+
+                  
+
+                 
+                  .input-mess{
+                    font-size: 20px;
+                    width: 500px;
+                    height: 200px;
+                    border: none;
+                    border-bottom: 2px solid #ccc;
+                    padding: 5px 0;
+                    background-color: transparent;
+                    outline: none;
+
+
+                    &:focus ~ .label{
+                        top: -20px;
+                        font-size: 16px;
+                        color: #333;
+                    }
+
+                    // &:valid ~ .label{
+                    //     top: -20px;
+                    //     font-size: 16px;
+                    //     color: #333;
+                    // }
+
+                    &:focus ~ .underline{
+                        transform: scaleX(1);
+                    }
+
+                    // &:valid ~ .underline{
+                    //     transform: scaleX(1);
+                    // }
+                  }
+                  .label {
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     color: #ccc;
+                     transition: all 0.3s ease;
+                     pointer-events: none;
+                   }
+                      
+
+                    
+                      .underline{
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        height: 2px;
+                        width: 300px;
+                        background-color: #333;
+                        transform: scaleX(0);
+                        transition: all 0.3s ease;
+                      }
+                }
+        
+                #submit-btn{
+                  background-color: #648188;
+                  color: #fff;
+                  padding: 10px;
+                  width: 150px;
+                  border: none;
+                  border-radius: 30px;
+                }
+              }
             }
-        }
 
     }
 

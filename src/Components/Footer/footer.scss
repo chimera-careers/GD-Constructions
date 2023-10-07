@@ -22,23 +22,46 @@
     .footer-part2{
         display: flex;
         flex-direction: column;
-        font-family: Mont;
+        font-family: Montserrat;
         align-items: center;
+
+        .footer2-heading{
+            font-family: Anton;
+        }
+
     }
 
     .footer-part3{
-        font-family: Mont;
+        font-family: Montserrat;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+    
+        .footer3-heading{
+            font-family: Anton;
+        }
     }
 
     .footer-part4{
-        font-family: Mont;
+        font-family: Montserrat;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .footer4-heading{
+            font-family: Anton;
+        }
+    .footer4-contact-us{
+        background-color: #648188;
+        color: #fff;
+        padding: 10px;
+        width: 150px;
+        border: none;
+        border-radius: 30px;
     }
+    }
+
 }
 
 .footer-base{
@@ -49,11 +72,11 @@
     margin: 0 50px;
 
     .base-part1{
-        font-family: Mont;
+        font-family: Montserrat;
     }
 
     .base-part2{
-        font-family: Mont;
+        font-family: Montserrat;
 
         .chimera{
             color: red;
