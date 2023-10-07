@@ -16,9 +16,9 @@ function Navbar() {
         <img src={Logo} alt="My Logo"  className='logo'/>
         </div>
         <div className="options">
-            <p>Home</p>
+         <Link to="/"> <p>Home</p></Link>  
             <p>About us</p>
-            <p>Projects</p>
+          <Link > <p>Projects</p> </Link> 
             <p>Contact</p>
             <Link className='menu-btn'><button className='menu-btn'>MENU <FiMenu className='menu-icon' /></button></Link>
         </div>

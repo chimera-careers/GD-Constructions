@@ -38,6 +38,16 @@
         margin-right: 50px;
         cursor: pointer;
 
+      
+     p{
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 3px solid;
+            color:  red;
+             animation: slideRight 2s linear infinite;
+        }
+     }
         .menu-btn{
             padding: 15px;
             border-radius: 50px;

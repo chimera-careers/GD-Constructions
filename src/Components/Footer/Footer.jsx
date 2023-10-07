@@ -23,7 +23,7 @@ function Footer() {
           <p>Linkedin</p>
         </div>
          <div className="footer-part4">
-          <h2>Inquiries</h2>
+          <h2>Enquiries</h2>
           <button>Contact US</button>
         </div> 
 

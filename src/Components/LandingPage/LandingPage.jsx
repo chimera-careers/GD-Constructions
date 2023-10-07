@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JavaScript bundle
 import Contact from '../Contact/Contact'
 import Projects from '../Projects/Projects'
+import Gallery from '../Gallery/Gallery'
 // import Banner from "../../assets/Images/banner.jpg";
 
 function LandingPage() {
@@ -43,8 +44,9 @@ function LandingPage() {
 </div>
 </div>
       <About />
-      <Projects />
+      <Projects id="Project"/>
       <Contact />
+      {/* <Gallery /> */}
       <Footer/>
     </>
     </div>

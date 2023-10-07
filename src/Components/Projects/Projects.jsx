@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./projects.scss";
 import Project1 from "../../assets/Images/project1.webp";
 import Project2 from "../../assets/Images/project2.webp";
@@ -6,22 +6,14 @@ import Project3 from "../../assets/Images/project3.jpeg";
 import Project4 from "../../assets/Images/project4.jpeg";
 import Project5 from "../../assets/Images/project5.jpeg";
 import Project6 from "../../assets/Images/project6.jpeg";
+import { Link } from 'react-router-dom';
 
 
 
-import { FiX } from "react-icons/fi";
+// import { FiX } from "react-icons/fi";
 
 function Projects() {
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => {
-    setOpen(true);
-  }
-
-  const handleClose = () => {
-    setOpen(false);
-  }
-
+ 
   return (
     <>
       <div className="projects-container">
@@ -33,9 +25,11 @@ function Projects() {
             <div className="textBox">
               <p className="text head">St. Judes Church</p>
               <p className="text price">Vazhayila</p>
-              <button type="button" className="btn btn-primary" onClick={handleOpen}>
+              <Link to="/gallery">
+              <button type="button" className="btn btn-primary" >
                 View More
               </button>
+              </Link>
             </div>
           </div>
           <div className="card2">
@@ -55,14 +49,8 @@ function Projects() {
           </div>  */}
         </div>
 
-        {open && (
-          <div className="projects-popup-container">
-            <FiX onClick={handleClose}/>
-            <img src={Project1} alt="" />
-            
-             
-          </div>
-        )}
+       
+        
       </div>
     </>
   );
