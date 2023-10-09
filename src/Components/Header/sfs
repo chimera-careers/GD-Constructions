@@ -1,0 +1,63 @@
+.headerContainer {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+.headerContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contactNumbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactNumbers a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactNumbers a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.contactNumbers a:nth-child(1)::after {
+    content: "|";
+    margin: 10px;
+}
+
+.sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mailId {
+    color: white;
+}
+
+.mailId::after {
+    content: "|";
+    margin-left: 10px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    cursor: pointer;
+}

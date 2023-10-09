@@ -20,8 +20,7 @@ function Header() {
             <p className="mob-no">+91 9495831451</p>
           </Link>
           <Link className="mob-no">
-            {" "}
-            <div className="vertical"></div>
+            
           </Link>
           <p className="mob-no">+91 9443692838</p>
         </div>
@@ -34,7 +33,6 @@ function Header() {
             <p className="mail-id">gdconstructions@gmail.com</p>
           </Link>
         </div>
-        <div className="vertical"></div>
 
         <div className="socials">
           <Link>
@@ -48,6 +46,7 @@ function Header() {
           </Link>
         </div>
       </div>
+      
     </div>
   );
 }

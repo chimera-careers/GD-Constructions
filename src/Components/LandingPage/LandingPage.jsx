@@ -1,20 +1,16 @@
 import React from "react";
+import Banner1 from "../../assets/Images/banner-1.png";
+import Banner2 from "../../assets/Images/banner-2.png";
 import Banner3 from "../../assets/Images/banner-3.png";
-import Banner1 from "../../assets/Images/banner-1.png"
-import Banner2 from "../..//assets/Images/banner-2.png"
-
 import "./landingpage.scss";
 import Header from "../Header/Header";
 import Navbar from "../Navbar.jsx/Navbar";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
-
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Import Bootstrap JavaScript bundle
 import Contact from "../Contact/Contact";
 import Projects from "../Projects/Projects";
-import Gallery from "../Gallery/Gallery";
-// import Banner from "../../assets/Images/banner.jpg";
 
 function LandingPage() {
   return (
@@ -25,43 +21,55 @@ function LandingPage() {
         <div className="banner-container">
           <div
             id="carouselExampleAutoplaying"
-            class="carousel slide"
+            className="carousel slide"
             data-bs-ride="carousel"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src={Banner1} class="d-block w-100" alt="" />
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src={Banner1}
+                  className="d-block w-100 img-fluid"
+                  alt=""
+                />
               </div>
-              <div class="carousel-item">
-                <img src={Banner2} class="d-block w-100" alt="" />
+              <div className="carousel-item">
+                <img
+                  src={Banner2}
+                  className="d-block w-100 img-fluid"
+                  alt=""
+                />
               </div>
-              <div class="carousel-item">
-                <img src={Banner3} class="d-block w-100" alt="" />
+              <div className="carousel-item">
+                <img
+                  src={Banner3}
+                  className="d-block w-100 img-fluid"
+                  alt=""
+                />
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExampleAutoplaying"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#carouselExampleAutoplaying"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
@@ -76,7 +84,6 @@ function LandingPage() {
         <div id="contact">
           <Contact />
         </div>
-        {/* <Gallery /> */}
 
         <div id="footer">
           <Footer />

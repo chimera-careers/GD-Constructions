@@ -5,6 +5,16 @@
   flex-direction: row;
   justify-content: space-around;
 
+
+  @media screen and (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+    }
+    .vertical {
+      display: none; /* Hide the vertical section */
+    }
+  }
+
   .about-part1 {
     .section1 {
       // margin-left: 100px;
