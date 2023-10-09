@@ -32,7 +32,7 @@
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url("../../assets/Images/project5.jpeg");
+      background-image: url("../../assets/Images/project4.jpeg");
       position: relative;
 
       .textBox {
@@ -86,6 +86,19 @@
   .projects-container{
     display: flex;
     flex-direction: column;
+
+    .visible-cards{
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6{
+      width: 300px;
+      height: 200px;
+    }
+    }
   }
 
 }
