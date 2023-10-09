@@ -1,7 +1,21 @@
-.banner-container {
-  position: inherit;
-  margin-top: 90px;
 
-
+.page-components{
+     
+  display: flex;
+  flex-direction: column;
   
+  .banner-container {
+    position: inherit;
+    margin-top: 90px;  
+  }
+
+
+  @media screen and (max-width: 640px) {
+
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    
+    }
 }

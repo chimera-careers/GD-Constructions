@@ -28,7 +28,7 @@ function Navbar() {
           <p>Home</p>
         </Link>
         <p>About us</p>
-        <Link to={"#projects"}>
+        <Link to={"/gallery"}>
           
           <p>Projects</p>
         </Link>

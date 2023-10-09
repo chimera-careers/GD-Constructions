@@ -27,24 +27,6 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
-    position: fixed; /* Make the navbar fixed for mobile and tablet screens */
-    margin: 0; /* Remove margin */
-    z-index: 99;
-
-    .options p {
-      visibility: hidden;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    position: fixed; /* Make the navbar fixed for mobile and tablet screens */
-    margin: 0; /* Remove margin */
-    z-index: 99;
-
-    .options p {
-      visibility: hidden;
-    }
-  }
   .options {
     display: flex;
     flex-direction: row;
@@ -59,7 +41,7 @@
 
     p {
       text-decoration: none;
-
+      
       &:hover {
         border-bottom: 3px solid;
         color: #050606;
@@ -80,11 +62,29 @@
       color: #050606;
       // background-color: #648188;
       // margin-right: 30px;
-
+      
       .menu-icon {
         font-size: 22px;
         // margin-left: 10px;
       }
+    }
+  }
+  @media screen and (max-width: 640px) {
+    position: fixed; /* Make the navbar fixed for mobile and tablet screens */
+    margin: 0; /* Remove margin */
+    z-index: 99;
+
+    .options p {
+      visibility: hidden;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    position: fixed; /* Make the navbar fixed for mobile and tablet screens */
+    margin: 0; /* Remove margin */
+    z-index: 99;
+
+    .options p {
+      visibility: hidden;
     }
   }
 }

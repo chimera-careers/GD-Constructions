@@ -14,7 +14,7 @@ import Projects from "../Projects/Projects";
 
 function LandingPage() {
   return (
-    <div>
+    <div className="page-components">
       <>
         <Header />
         <Navbar />
