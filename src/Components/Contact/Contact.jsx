@@ -11,7 +11,7 @@ function Contact() {
           <p>
             T.C.4/894,Mohammed Manzil,Pipeline Road,
             <br />
-            Kowdiar,TVPM
+            Kowdiar,Thiruvananthapuram,695003
           </p>
           <p>Mob: +91 9495831451</p>
           <p>Mob: +91 9443692838</p>

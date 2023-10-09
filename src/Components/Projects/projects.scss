@@ -79,25 +79,24 @@
   }
 
 
-  @media screen and (max-width: 640px) {
-
-    .projects-container{
-      display: flex;
-      flex-direction: column;
-      margin:  10px 0;
-    }
-
-  }
   
-  @media screen and (max-width: 768px) {
-       
-    .projects-container{
-      display: flex;
-      flex-direction: column;
-      margin: 0 1000px;
-    }
+}
+@media screen and (max-width: 640px) {
 
-    
-    }
+  .projects-container{
+    display: flex;
+    flex-direction: column;
+  }
 
 }
+
+@media screen and (max-width: 768px) {
+     
+  .projects-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+
+  
+  }
