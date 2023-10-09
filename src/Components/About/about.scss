@@ -4,61 +4,76 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
 
-
-  @media screen and (max-width: 768px) {
-    .about-container {
-      flex-direction: column;
-    }
-    .vertical {
-      display: none; /* Hide the vertical section */
+.about-part1 {
+  .section1 {
+    /* margin-left: 100px; */
+    .chairman {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
     }
   }
 
-  .about-part1 {
-    .section1 {
-      // margin-left: 100px;
-      .chairman {
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-      }
-    }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat-Heavy;
 
-    .section2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: Mont Heavy;
-
-      .name {
-        margin-top: 20px;
-        font-size: 30px;
-        font-family: Montserrat-bold;
-      }
-      .role {
-        font-family: montserrat;
-        color: #648188;
-        font-size: 15px;
-      }
+    .name {
+      margin-top: 20px;
+      font-size: 30px;
+      font-family: Montserrat-Bold;
     }
+    .role {
+      font-family: Montserrat;
+      color: #648188;
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .vertical {
-    border-left: 2px solid #000;
-    display: flex;
-    margin-top: 15px;
-    height: 350px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
   }
 
-  .about-part2 {
-    width: 50%;
+  .vertical {
+    display: none;
+  }
+}
 
-    .heading {
-      font-family: Anton;
-    }
-    .about-desc {
-      font-family: Montserrat;
-    }
+.vertical {
+  border-left: 2px solid #000;
+  margin-top: 15px;
+  height: 350px;
+}
+
+.about-part2 {
+  width: 50%;
+
+  .heading {
+    font-family: Anton, sans-serif;
+  }
+  .about-desc {
+    font-family: Montserrat, sans-serif;
   }
 }
