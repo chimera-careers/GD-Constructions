@@ -322,6 +322,29 @@
       margin-top: 50px;
 
       margin-bottom: 50px;
+
+      .form-container{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .form-inputs{
+          flex-direction: column;
+
+          .input-section1{
+            flex-direction: column;
+          }
+        }
+
+        .message-input{
+          width: 200px;
+          height: 200px;
+          .input-mess{
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
     }
 
 }
