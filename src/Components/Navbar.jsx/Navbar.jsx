@@ -2,65 +2,56 @@ import React from "react";
 import Logo from "../../assets/logo.svg";
 import Icon from "../../assets/icon.svg";
 
-import { FiMenu } from "react-icons/fi";
+// import { FiMenu } from "react-icons/fi";
 
 import "./navbar.scss";
 import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="navbar-container">
-      <div className="logo-container">
-        <Link to="/">
-          <img src={Logo} alt="My Logo" className="logo" />
-        </Link>
-      </div>
-      <div className="options">
-        <Link to="/">
-          <p>Home</p>
-        </Link>
-        <p>About us</p>
-        <Link to={"/gallery"}>
-          <p>Projects</p>
-        </Link>
-        <p>Contact</p>
-
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div className="image-container"></div>
+        <a class="navbar-brand" href="#">
+          <img src={Logo} alt="Bootstrap" width="300" class="img-fluid" />
+        </a>
         <button
-          className="btn btn-primary"
+          class="navbar-toggler"
           type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasRight"
-          aria-controls="offcanvasRight"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <FiMenu className="menu-icon" />
+          <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasRight"
-          aria-labelledby="offcanvasRightLabel"
-        >
-          <div className="offcanvas-header">
-            <h5 className="offcanvas-title" id="offcanvasRightLabel">
-              Menu
-            </h5>
-            <button
-              type="button"
-              className="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div className="offcanvas-body">
-            <h5>Home</h5>
-            <h5>About us</h5>
-            <h5>Projects</h5>
-            <h5>Contact</h5>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">
+                About us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects">
+                Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

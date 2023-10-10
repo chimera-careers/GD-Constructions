@@ -32,7 +32,7 @@ function Contact() {
         <h1 className="heading-enq">Enquiries</h1>
         <p>
           For any enquiries, questions or commendations, please call:
-          123-456-7890 <br /> or fill out the following form
+          +91 9495831451  <br /> or fill out the following form
         </p>
         <div className="form-container">
           <div className="form-inputs">
