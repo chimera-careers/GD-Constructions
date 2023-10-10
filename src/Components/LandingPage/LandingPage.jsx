@@ -26,25 +26,13 @@ function LandingPage() {
           >
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img
-                  src={Banner1}
-                  className="d-block w-100 img-fluid"
-                  alt=""
-                />
+                <img src={Banner1} className="d-block w-100 img-fluid" alt="" />
               </div>
               <div className="carousel-item">
-                <img
-                  src={Banner2}
-                  className="d-block w-100 img-fluid"
-                  alt=""
-                />
+                <img src={Banner2} className="d-block w-100 img-fluid" alt="" />
               </div>
               <div className="carousel-item">
-                <img
-                  src={Banner3}
-                  className="d-block w-100 img-fluid"
-                  alt=""
-                />
+                <img src={Banner3} className="d-block w-100 img-fluid" alt="" />
               </div>
             </div>
             <button
