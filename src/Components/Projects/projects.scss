@@ -21,19 +21,265 @@
     justify-content: center;
     gap: 30px;
 
-    .card1,
-    .card2,
-    .card3,
-    .card4,
-    .card5,
+    .card1 {
+      width: 400px;
+      height: 300px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      background-image: url("../../assets//Images/project1.jpeg");
+
+      .textBox {
+        opacity: 0;
+        position: absolute;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        justify-content: center;
+        gap: 15px;
+        transition: 0.2s ease-in-out;
+        z-index: 2;
+        background-color: rgba(
+          43,
+          42,
+          42,
+          0.441
+        ); /* Transparent black background */
+        width: 100%; /* Full width of the card */
+        height: 100%; /* Full height of the card */
+        top: 0;
+        left: 0;
+        text-align: center; /* Center-align text */
+
+        .btn-primary {
+          background-color: #648188;
+          color: #fff;
+          padding: 10px;
+          width: 150px;
+          border: none;
+          border-radius: 30px;
+        }
+        &:hover {
+          opacity: 1;
+        }
+
+        .head {
+          font-size: 20px;
+        }
+      }
+    }
+    .card2{
+
+
+      width: 400px;
+      height: 300px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      background-image: url("../../assets//Images/project2.jpeg");
+      .textBox {
+        opacity: 0;
+        position: absolute;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        justify-content: center;
+        gap: 15px;
+        transition: 0.2s ease-in-out;
+        z-index: 2;
+        background-color: rgba(
+          43,
+          42,
+          42,
+          0.441
+        ); /* Transparent black background */
+        width: 100%; /* Full width of the card */
+        height: 100%; /* Full height of the card */
+        top: 0;
+        left: 0;
+        text-align: center; /* Center-align text */
+
+        .btn-primary {
+          background-color: #648188;
+          color: #fff;
+          padding: 10px;
+          width: 150px;
+          border: none;
+          border-radius: 30px;
+        }
+        &:hover {
+          opacity: 1;
+        }
+
+        .head {
+          font-size: 20px;
+        }
+      }
+    }
+    .card3{
+      width: 400px;
+      height: 300px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      background-image: url("../../assets/Images/project3.jpeg");
+    
+      .textBox {
+        opacity: 0;
+        position: absolute;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        justify-content: center;
+        gap: 15px;
+        transition: 0.2s ease-in-out;
+        z-index: 2;
+        background-color: rgba(
+          43,
+          42,
+          42,
+          0.441
+        ); /* Transparent black background */
+        width: 100%; /* Full width of the card */
+        height: 100%; /* Full height of the card */
+        top: 0;
+        left: 0;
+        text-align: center; /* Center-align text */
+
+        .btn-primary {
+          background-color: #648188;
+          color: #fff;
+          padding: 10px;
+          width: 150px;
+          border: none;
+          border-radius: 30px;
+        }
+        &:hover {
+          opacity: 1;
+        }
+
+        .head {
+          font-size: 20px;
+        }
+      }
+    }
+    .card4{
+      width: 400px;
+      height: 300px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      background-image: url("../../assets/Images/project4.jpeg");
+
+      .textBox {
+        opacity: 0;
+        position: absolute;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        justify-content: center;
+        gap: 15px;
+        transition: 0.2s ease-in-out;
+        z-index: 2;
+        background-color: rgba(
+          43,
+          42,
+          42,
+          0.441
+        ); /* Transparent black background */
+        width: 100%; /* Full width of the card */
+        height: 100%; /* Full height of the card */
+        top: 0;
+        left: 0;
+        text-align: center; /* Center-align text */
+
+        .btn-primary {
+          background-color: #648188;
+          color: #fff;
+          padding: 10px;
+          width: 150px;
+          border: none;
+          border-radius: 30px;
+        }
+        &:hover {
+          opacity: 1;
+        }
+
+        .head {
+          font-size: 20px;
+        }
+      }
+    }
+    .card5{
+      width: 400px;
+      height: 300px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      background-image: url("../../assets/Images/project5.jpg");
+
+      .textBox {
+        opacity: 0;
+        position: absolute;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        justify-content: center;
+        gap: 15px;
+        transition: 0.2s ease-in-out;
+        z-index: 2;
+        background-color: rgba(
+          43,
+          42,
+          42,
+          0.441
+        ); /* Transparent black background */
+        width: 100%; /* Full width of the card */
+        height: 100%; /* Full height of the card */
+        top: 0;
+        left: 0;
+        text-align: center; /* Center-align text */
+
+        .btn-primary {
+          background-color: #648188;
+          color: #fff;
+          padding: 10px;
+          width: 150px;
+          border: none;
+          border-radius: 30px;
+        }
+        &:hover {
+          opacity: 1;
+        }
+
+        .head {
+          font-size: 20px;
+        }
+      }
+    }
     .card6 {
       width: 400px;
       height: 300px;
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url("../../assets/Images/project4.jpeg");
       position: relative;
+      background-image: url("../../assets/Images/project6.jpeg");
 
       .textBox {
         opacity: 0;
@@ -77,39 +323,30 @@
       }
     }
   }
-
-
-  
 }
 @media screen and (max-width: 640px) {
-
-  .projects-container{
+  .projects-container {
     display: flex;
     flex-direction: column;
 
-    .visible-cards{
-
-    .card1,
-    .card2,
-    .card3,
-    .card4,
-    .card5,
-    .card6{
-      width: 300px;
-      height: 200px;
-    }
+    .visible-cards {
+      .card1,
+      .card2,
+      .card3,
+      .card4,
+      .card5,
+      .card6 {
+        width: 300px;
+        height: 200px;
+      }
     }
   }
-
 }
 
 @media screen and (max-width: 768px) {
-     
-  .projects-container{
+  .projects-container {
     display: flex;
     flex-direction: column;
     margin: 0px 10px;
   }
-
-  
-  }
+}
