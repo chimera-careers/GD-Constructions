@@ -11,7 +11,7 @@ function Footer() {
           <img src={Logo} alt="" className="footer-logo" />
         </div>
         <div className="footer-part2">
-          <h2 className="footer2-heading">Head Office</h2>
+          <h2 className="footer2-heading">Office</h2>
           <p>
             T.C.4/894,Mohammed Manzil,Pipeline Road,
             <br />

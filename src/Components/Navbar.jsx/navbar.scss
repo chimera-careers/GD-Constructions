@@ -48,37 +48,36 @@
         animation: slideRight 2s linear infinite;
       }
     }
-    .menu-btn {
-      // padding: 10px;
-      margin-bottom: 3px;
-      border-radius: 50px;
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      font-family: Montserrat-Bold;
-      font-size: 15px;
-      cursor: pointer;
-      border: none;
-      color: #050606;
-      // background-color: #648188;
-      // margin-right: 30px;
 
-      .menu-icon {
-        font-size: 22px;
-        // margin-left: 10px;
+    .btn-primary {
+      visibility: hidden;
+    }
+
+    .offcanvas {
+      .offcanvas-body {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
       }
     }
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
   .navbar-container {
     position: fixed;
     margin: 0;
     z-index: 99;
     width: 100%;
 
-    .options p {
-      visibility: hidden;
+    .options {
+      .btn-primary {
+        visibility: visible;
+      }
+
+      p {
+        visibility: hidden;
+      }
     }
   }
 }
@@ -87,9 +86,15 @@
     position: fixed;
     margin: 0;
     z-index: 99;
+    width: 100%;
 
-    .options  p {
-      visibility: hidden;
+    .options {
+      .btn-primary {
+        visibility: visible;
+      }
+      p {
+        visibility: hidden;
+      }
     }
   }
 }

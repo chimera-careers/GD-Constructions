@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="contact-part1">
-        <h1 className="heading-office">Head Office</h1>
+        <h1 className="heading-office">Office</h1>
         <div className="address-details">
           <p>
             T.C.4/894,Mohammed Manzil,Pipeline Road,

@@ -299,78 +299,83 @@
       }
     }
   }
-
-
 }
 @media screen and (max-width: 640px) {
-  .contact-container{
+  .contact-container {
     flex-direction: column; /* Change flex direction for smaller screens */
     margin-bottom: 0; /* Adjust margin for smaller screens */
     right: initial;
     justify-content: center;
     align-items: center;
 
-    .vertical{
+    .vertical {
       display: none;
     }
 
-    .contact-part1{
+    .contact-part1 {
       margin-top: 120px;
+
+      .map {
+        width: 400px;
+        height: 400px;
+      }
     }
 
-    .contact-part2{
+    .contact-part2 {
       margin-top: 50px;
 
       margin-bottom: 50px;
 
-      .form-container{
-
+      .form-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .form-inputs{
+        .form-inputs {
           flex-direction: column;
 
-          .input-section1{
+          .input-section1 {
             flex-direction: column;
           }
         }
 
-        .message-input{
+        .message-input {
           width: 200px;
           height: 200px;
-          .input-mess{
+          .input-mess {
             width: 200px;
             height: 200px;
           }
         }
       }
     }
-
-}
-
-@media screen and (max-width: 768px) {
-  .contact-container{
-    flex-direction: column; /* Change flex direction for smaller screens */
-    margin-bottom: 0; /* Adjust margin for smaller screens */
-    right: initial;
-    justify-content: center;
-    align-items: center;
-
-    .vertical{
-      display: none;
-    }
-
-    .contact-part1{
-      margin-top: 120px;
-    }
-
-    .contact-part2{
-      margin-top: 50px;
-
-      margin-bottom: 50px;
-    }
   }
 
-  
-  }}
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Change flex direction for smaller screens */
+      margin-bottom: 0; /* Adjust margin for smaller screens */
+      right: initial;
+      justify-content: center;
+      align-items: center;
+
+      .vertical {
+        display: none;
+      }
+
+      .contact-part1 {
+        margin-top: 120px;
+
+        .map {
+          width: 400px;
+          height: 400px;
+        }
+      }
+
+      .contact-part2 {
+        margin-top: 50px;
+
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

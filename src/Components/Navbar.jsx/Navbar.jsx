@@ -24,7 +24,6 @@ function Navbar() {
       </div>
       <div className="options">
         <Link to="/">
-          
           <p>Home</p>
         </Link>
         <p>About us</p>
@@ -33,12 +32,24 @@ function Navbar() {
           <p>Projects</p>
         </Link>
         <p>Contact</p>
-        <Link className="menu-btn" onClick={<Menu />}>
-          <button className="menu-btn">
-           <FiMenu className="menu-icon" />
-          </button>
-        </Link>
+    
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><FiMenu className="menu-icon" /></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <h5>Home</h5>
+    <h5>About us</h5>
+    <h5>Projects</h5>
+    <h5>Contact</h5>
+    
+  </div>
+</div>
       </div>
+
     </div>
   );
 }
