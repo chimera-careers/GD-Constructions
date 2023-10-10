@@ -6,7 +6,6 @@ import { FiMenu } from "react-icons/fi";
 
 import "./navbar.scss";
 import { Link } from "react-router-dom";
-import Menu from "../Menu/Menu";
 
 function Navbar() {
   return (
