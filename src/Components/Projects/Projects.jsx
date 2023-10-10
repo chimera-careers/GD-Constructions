@@ -48,7 +48,9 @@ function Projects() {
           </div>
           <div className="card4">
             <div className="textBox">
-              <p className="text head">Commercial and Residential Project(ongoing)</p>
+              <p className="text head">
+                Commercial and Residential Project(ongoing)
+              </p>
               <p className="text price">Pottakuzhi , Pattom</p>
               <Link to="/gallery">
                 <button type="button" className="btn btn-primary">

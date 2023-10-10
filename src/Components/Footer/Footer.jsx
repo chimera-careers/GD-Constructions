@@ -25,7 +25,6 @@ function Footer() {
           <p>Instagram</p>
           <p>Linkedin</p>
         </div>
-       
       </div>
       <div className="footer-base">
         <div className="base-part1">

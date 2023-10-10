@@ -19,9 +19,7 @@ function Header() {
           <Link className="mob-no">
             <p className="mob-no">+91 9495831451</p>
           </Link>
-          <Link className="mob-no">
-            
-          </Link>
+          <Link className="mob-no"></Link>
           <p className="mob-no">+91 9443692838</p>
         </div>
       </div>
@@ -46,7 +44,6 @@ function Header() {
           </Link>
         </div>
       </div>
-      
     </div>
   );
 }

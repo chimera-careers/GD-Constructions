@@ -5,16 +5,14 @@ import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Gallery from "./Components/Gallery/Gallery";
 import Projects from "./Components/Projects/Projects";
-import Menu from "./Components/Menu/Menu";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-      <Route path="#projects" element={<Projects />} />
+        <Route path="#projects" element={<Projects />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/menu" element={<Menu/>} />
       </Routes>
     </BrowserRouter>
   );

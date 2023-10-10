@@ -83,18 +83,14 @@
   }
 }
 @media screen and (max-width: 640px) {
-
-  .footer-container{
+  .footer-container {
     flex-direction: column;
   }
-
 }
 
 @media screen and (max-width: 768px) {
-
-  .footer-container{
+  .footer-container {
     flex-direction: column;
     height: auto;
   }
-
-  }
+}

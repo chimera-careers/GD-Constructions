@@ -1,33 +1,23 @@
-
-.page-components{
-     
+.page-components {
   display: flex;
   flex-direction: column;
-  
+
   .banner-container {
     position: inherit;
-    margin-top: 90px;  
+    margin-top: 90px;
   }
-
 
   @media screen and (max-width: 480px) {
-
-    .page-components{
-
+    .page-components {
       justify-content: center;
       align-items: center;
     }
-    
   }
-  
+
   @media screen and (max-width: 768px) {
-    
-    .page-components{
-  
+    .page-components {
       justify-content: center;
       align-items: center;
     }
-    
-    }
+  }
 }
-

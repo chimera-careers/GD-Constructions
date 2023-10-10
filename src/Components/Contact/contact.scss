@@ -329,65 +329,65 @@
   }
 }
 
-  @media screen and (max-width: 768px) {
-    .contact-container {
-      flex-direction: column; /* Change flex direction for smaller screens */
-      margin-bottom: 0; /* Adjust margin for smaller screens */
-      right: initial;
-      justify-content: center;
-      align-items: center;
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; /* Change flex direction for smaller screens */
+    margin-bottom: 0; /* Adjust margin for smaller screens */
+    right: initial;
+    justify-content: center;
+    align-items: center;
 
-      .vertical {
-        display: none;
+    .vertical {
+      display: none;
+    }
+
+    .contact-part1 {
+      margin-top: 120px;
+
+      .map {
+        width: 400px;
+        height: 400px;
       }
+    }
 
-      .contact-part1 {
-        margin-top: 120px;
+    .contact-part2 {
+      margin-top: 50px;
 
-        .map {
-          width: 400px;
-          height: 400px;
-        }
-      }
+      margin-bottom: 50px;
 
-      .contact-part2 {
-        margin-top: 50px;
-
-        margin-bottom: 50px;
-
-        .form-container {
+      .form-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .form-inputs {
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          .form-inputs {
+
+          .input-section1 {
             flex-direction: column;
+          }
 
-            .input-section1 {
-              flex-direction: column;
+          .subject-input {
+            .input-sub {
+              width: 200px;
             }
-
-            .subject-input {
-              .input-sub {
-                width: 200px;
-              }
-              .underline {
-                width: 200px;
-              }
+            .underline {
+              width: 200px;
             }
+          }
 
-            .message-input {
+          .message-input {
+            width: 200px;
+            height: 200px;
+            .input-mess {
               width: 200px;
               height: 200px;
-              .input-mess {
-                width: 200px;
-                height: 200px;
-              }
-              .underline {
-                width: 200px;
-              }
+            }
+            .underline {
+              width: 200px;
             }
           }
         }
       }
     }
   }
+}

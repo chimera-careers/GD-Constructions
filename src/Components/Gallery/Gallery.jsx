@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-// import Project2 from "../../assets/Images/project2.webp"; // Import the image with the correct path
-import "./gallery.scss"; // Make sure the filename matches your CSS file
+import "./gallery.scss";
 import Navbar from "../Navbar.jsx/Navbar";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";

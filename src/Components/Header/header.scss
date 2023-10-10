@@ -4,22 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // padding: 15px;
   color: white;
-  
-  @media (max-width: 600px) {
-    .header-container {
-      display: none;
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    /* Add a media query for tablet-sized screens if needed */
-    // .header-container {
-    //   display: none;
-    // }
-  }
-  
+
   .header-section1 {
     display: flex;
     align-items: center;
@@ -33,10 +19,8 @@
       padding: 5px;
       border-radius: 50px;
       border-style: ridge;
-
-      
     }
-    
+
     .mobile-numbers {
       display: flex;
       flex-direction: row;
@@ -44,25 +28,20 @@
       align-items: center;
       cursor: pointer;
       gap: 10px;
-      
-         .mob-no {
+
+      .mob-no {
         font-family: Montserrat;
         color: #fff;
         text-decoration: none;
         text-align: center;
-        
 
         &:hover {
           color: #ba1f24;
         }
       }
     }
-    
-    
-  
   }
-  
-  
+
   .header-section2 {
     display: flex;
     align-items: center;
@@ -79,7 +58,7 @@
       border-radius: 50px;
       border-style: ridge;
     }
-    
+
     .mail-id-section {
       display: flex;
       align-items: center;
@@ -94,20 +73,20 @@
         //   content: "|";
         //   margin-left: 10px;
         // }
-      
+
         &:hover {
           color: #ba1f24;
         }
       }
     }
-    
+
     .socials {
       display: flex;
       flex-direction: row;
       gap: 15px;
       cursor: pointer;
     }
-    
+
     .socialicon {
       color: #fff;
       font-size: 30px;
@@ -115,15 +94,22 @@
       padding: 5px;
       border-radius: 50px;
       border-style: ridge;
-    
+
       &:hover {
         color: #ba1f24;
       }
     }
-    
-    
-  
   }
-  
 }
 
+@media (max-width: 600px) {
+  .header-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    display: none;
+  }
+}
